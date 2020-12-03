@@ -1,0 +1,178 @@
+.fontemenu{
+    font-weight: 700;
+    font-size: 14px;
+    color: rgb(0, 28, 39);
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.bgazul01{
+    background-color:rgb(2, 175, 244);
+}
+.bgazul02{
+    background-color:rgb(0, 28, 39);
+}
+.azul01{
+    color: rgb(2, 175, 244);
+}
+.azul02{
+    color: rgb(0, 28, 39);
+}
+.branco{
+    color: rgb(237, 237, 237);
+}
+.bgbranco{
+    background-color: rgb(237, 237, 237);
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+}
+.t01{
+    transition: all 0.5s;
+    color:rgb(237, 237, 237);
+}
+.t01:hover{
+    color: rgb(2, 175, 244);
+    border-left-color:rgb(2, 175, 244);
+}
+.t02{
+    transition: all 0.5s;
+    width: 100%;
+    color:rgb(237, 237, 237);
+    background-color:rgb(0, 28, 39) ;
+}
+.t02:hover{
+    color:  rgb(2, 175, 244);
+    background-color:rgb(0, 28, 39) ;
+}
+.box01{
+    background-color: rgb(0, 28, 39);
+    border-radius: 15px;
+}
+.box02{
+    border: solid  rgb(0, 28, 39);
+    border-width: 1px;
+}
+.box03{
+    background-color: rgb(237, 237, 237);
+    border-radius: 15px;
+}
+.sombra{
+    box-shadow: 5px 5px 10px 4px rgba(0, 0, 0, 0.2);
+}
+.espaco50{
+    height: 50px;
+    width: 100%;
+}
+.espaco25{
+    height: 25px;
+    width: 100%;
+}
+.esoaco5{
+    height: 15px;
+    width: 100%;
+}
+.justo{
+    text-align: justify;
+}
+.centro{
+    text-align: center;
+}
+.txtesquerda{
+    text-align: left;
+}
+.txtcentro{
+    text-align: center;
+}
+.txtdireita{
+    text-emphasis: right;
+}
+.txtespaco{
+    line-height: 30px;
+}
+.txtespaco25{
+    line-height: 25px;
+}
+.titulo-equipe{
+    font-weight: 700;
+}
+.titulo-equipe-span{
+    font-weight: 900;
+}
+.borda-sd{
+    border-top-right-radius: 15px;
+}
+.borda-se{
+    border-top-left-radius: 15px;
+}
+.borda-id{
+    border-bottom-right-radius: 15px;
+}
+.borda-ie{
+    border-bottom-left-radius: 15px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  background-color:rgb(0, 28, 39);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: rgb(2, 175, 244);
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  left:  25px;
+  font-size: 36px;
+  margin-left: 0px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 250px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.menu{
+    position: fixed;
+    right: 0;
+    top: 10%;
+    width: 8em;
+    margin-top: -2.5em;
+    z-index: 1;
+}
+
+.fblack{
+    font-weight: 900;
+}
+
+.margem25{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.pmaior{
+    font-size: 18px;
+}
