@@ -1,0 +1,288 @@
+/* Específicos */
+.fontemenu{
+    font-weight: 700;
+    font-size: 14px;
+    color: rgb(0, 28, 39);
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.menurodape{
+    border-left-width:3px;
+    border-left-style:solid;
+    padding-left: 10px;
+}
+@font-face {
+    font-family: 'Galleto';
+    src: url('Fonts/Gellatio\ Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    background-color: rgb(237, 237, 237);
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    background-color:rgb(0, 28, 39);
+    overflow-x: hidden;
+    transition: 0.8s;
+    padding-top: 60px;
+}
+  
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    display: block;
+    transition: 0.5s;
+}
+  
+.sidenav a:hover {
+    color: rgb(2, 175, 244);
+}
+  
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    left:  0px;
+    font-size: 36px;
+    margin-left: 0px;
+}
+  
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 250px;}
+    .sidenav a {font-size: 18px;}
+}
+  
+.menu{
+      position: fixed;
+      right: 5px;
+      top: 48px;
+      margin-top: -2.5em;
+      z-index: 1;
+}
+.menumobile{
+    position: fixed;
+    width: 100%;
+    color: white;
+    background-color: rgb(0, 28, 39);
+    height: 70px;
+    z-index: 1;
+}
+
+.logomenu{
+    transition: all 0.5s;
+    width: 80px;
+    height: 85px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+    background-color: rgb(237, 237, 237);
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+}
+.logomenu:hover{
+    border-top: 5px solid rgb(237, 237, 237) ;
+    height: 90px;
+}
+
+
+/* Cores */
+.bgazul01{
+    background-color:rgb(2, 175, 244);
+}
+.bgazul02{
+    background-color:rgb(0, 28, 39);
+}
+.azul01{
+    color: rgb(2, 175, 244);
+}
+.azul02{
+    color: rgb(0, 28, 39);
+}
+.azul03{
+    color: rgb(146, 224, 255);
+}
+.branco{
+    color: rgb(237, 237, 237);
+}
+.bgbranco{
+    background-color: rgb(237, 237, 237);
+}
+.bggaleria{
+    background-image: linear-gradient(rgb(0, 28, 39), rgb(2, 175, 244))
+}
+
+
+/* Formas */
+.sombra{
+    box-shadow: 5px 5px 10px 4px rgba(0, 0, 0, 0.2);
+}
+.altura25{
+    height: 25px;
+}
+.altura450{
+    height: 450px;
+}
+.espaco50{
+    height: 50px;
+    width: 100%;
+}
+.espaco25{
+    height: 25px;
+    width: 100%;
+}
+.espaco5{
+    height: 5px;
+    width: 100%;
+}
+.borda-sd{
+    border-top-right-radius: 15px;
+}
+.borda-se{
+    border-top-left-radius: 15px;
+}
+.borda-id{
+    border-bottom-right-radius: 15px;
+}
+.borda-ie{
+    border-bottom-left-radius: 15px;
+}
+.bordaredonda15px{
+    border-radius: 15px;
+}
+.borda10px{
+    padding: 10px;
+}
+
+
+/* Cores e formas */
+.box01{
+    background-color: rgb(0, 28, 39);
+    border-radius: 15px;
+}
+.box02{
+    border: solid  rgb(0, 28, 39);
+    border-width: 1px;
+}
+.box03{
+    background-color: rgb(237, 237, 237);
+    border-radius: 15px;
+}
+.box04{
+    background-color: rgb(0, 28, 39);
+    border-radius: 5px;
+}
+
+
+/* Texto */
+.txtespaco30{
+    line-height: 30px;
+}
+.txtespaco25{
+    line-height: 25px;
+}
+.fmedium{
+    font-weight: 700;
+}
+.fblack{
+    font-weight: 900;
+}
+.txttam16{
+    font-size: 16px;
+}
+
+
+/* Ajuste de texto*/
+.txtjusto{
+    text-align: justify;
+}
+.txtcentro{
+    text-align: center;
+}
+.txtesquerda{
+    text-align: left;
+}
+.txtdireita{
+    text-emphasis: right;
+}
+
+
+/* Transformações */
+.t01{
+    transition: all 0.5s;
+    color:rgb(237, 237, 237);
+}
+.t01:hover{
+    color: rgb(2, 175, 244);
+    border-left-color:rgb(2, 175, 244);
+}
+.t02{
+    transition: all 0.5s;
+    width: 100%;
+    color:rgb(237, 237, 237);
+    background-color:rgb(0, 28, 39) ;
+}
+.t02:hover{
+    color:  rgb(2, 175, 244);
+    background-color:rgb(0, 28, 39) ;
+}
+.t03{
+    transition: all 0.5s;
+    width: 100%;
+    background-color: rgb(2, 175, 244);
+    color: rgb(0, 28, 39);
+}
+.t03:hover{
+    background-color:rgb(2, 175, 244);
+    color: rgb(237, 237, 237);
+}
+.t04{
+    transition: all 0.5s;
+    background-color: rgb(0, 28, 39);
+    color: rgb(2, 175, 244);
+}
+.t04:hover{
+    color: rgb(237, 237, 237);
+    background-color: rgb(0, 28, 39);
+}
+
+
+/* Margens e paddins */
+.margemauto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.margem5px{
+    padding:5px;
+}
+.margem25{
+    margin: 25px;
+}
+.semMargem{
+    padding: 0px;
+}
+
+
+/* Imagens e ajuste de imagens */
+.imgGaleriap{
+    width: 48%;
+    height: auto;
+    margin: 0.5% 0.5% 0.5% 0.5%;
+}
+.imgGaleriag{
+    width:97%;
+    height: auto;
+    margin: 0.5% 0.5% 0.5% 0.5%;
+}
+.maxheight416{
+    max-height: 416px;
+}
